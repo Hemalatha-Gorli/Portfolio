@@ -2,13 +2,19 @@
 * {
     font-family: 'PT Serif', serif;
 }
-.bannerBgImg{
+html {
+ overflow-x: hidden;
+}
+body {
+ overflow-x: hidden;
+}
+.bannerBgImg {
     height:100vh;
     background-image: url("../images/bannerImg.jpg");
     background-size: cover;
     position: relative;
 }
-.bannerText{
+.bannerText {
     text-align: center;
     position: absolute;
     top:50%;
